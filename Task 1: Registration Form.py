@@ -1,3 +1,32 @@
+'''first you need to install tkinter library on your OS
+1.) For Ubuntu/Debian
+
+sudo apt-get update
+sudo apt-get install python3-tk
+
+*** for other linux distributions search on Google ***
+2.) For Windows
+
+For Windows, tkinter should be included with your Python installation if you downloaded Python from the official website (python.org). However, if it's not installed or if you need to ensure it's included, follow these steps:
+
+Download and Install Python:
+
+Go to the official Python website.
+Download the installer for the latest version of Python.
+Run the installer and ensure that the "Install for all users" and "Add Python to PATH" options are checked.
+During installation, make sure to check the option "tcl/tk and IDLE".
+Verify tkinter Installation:
+
+Open Command Prompt.
+
+Run the Python interpreter by typing python or python3.
+
+Try to import tkinter:
+import tkinter
+print(tkinter.TkVersion)
+
+'''
+
 import tkinter as tk
 from tkinter import messagebox
 
