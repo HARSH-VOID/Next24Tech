@@ -1,3 +1,10 @@
+'''
+First, install the required libraries:
+pip install tkinter lyricsgenius
+
+You also need an access token from the Genius API. Sign up at Genius and create a new API client to get your access token.
+'''
+
 import tkinter as tk
 from tkinter import messagebox
 import lyricsgenius
