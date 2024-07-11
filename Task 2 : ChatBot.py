@@ -1,6 +1,15 @@
+''' Install Necessary Libraries
+Install the required libraries using pip:
+
+pip install chatterbot chatterbot_corpus spacy
+python -m spacy download en_core_web_sm
+
+'''
+
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer, ListTrainer
 import spacy
+
 
 # Load spaCy model
 nlp = spacy.load('en_core_web_sm')
